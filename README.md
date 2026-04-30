@@ -59,21 +59,31 @@ ecommerce_analytics/
 ## Lancer le projet
 
 ### 1. Installer les dépendances
+```bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 ### 2. Générer les données
+```bash
 python scripts/generate_data.py
+```
 
 ### 3. Construire le warehouse
+```bash
 python scripts/build_warehouse.py
+```
 
 ### 4. Lancer les analyses
+```bash
 python scripts/run_analyses.py
+```
 
 ### 5. Lancer le dashboard
+```bash
 streamlit run dashboard/app.py
+```
 
 ## Données générées
 
