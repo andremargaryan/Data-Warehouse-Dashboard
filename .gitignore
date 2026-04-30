@@ -1,0 +1,13 @@
+venv/
+
+data/warehouse/
+
+data/raw/
+data/reports/
+
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+.vscode/
