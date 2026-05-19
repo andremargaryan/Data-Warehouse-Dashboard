@@ -1,7 +1,5 @@
 venv/
 
-data/warehouse/
-
 data/raw/
 data/reports/
 

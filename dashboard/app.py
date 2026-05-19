@@ -6,6 +6,7 @@ app.py — Dashboard Streamlit : Analyse des ventes e-commerce
 import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
+DB_PATH = Path(__file__).parent.parent / "data" / "warehouse" / "ecommerce.duckdb"
 
 import streamlit as st
 import pandas as pd
